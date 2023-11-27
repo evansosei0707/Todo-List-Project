@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: url(./Images/black-wall.png);
+    margin:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left:30px;
+    font-size: 3rem;
+    color:white;
+}
+
+p {
+    color:white;
+    font-size: 1.5rem;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+
+.inputs-todo,
+.todos {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 1.5fr 1fr ;
+    align-items: center;
+    gap:1.5em;
+    margin:0 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+input {
+    padding:20px;
+    font-size: 15px;
+    color:black;
+}
+
+
+.delete-btn {
+    background-color: darkred;
+    border:none;
+    cursor: pointer;
+    padding:1.2em 1.4em;
+    font-size: .8em;
+    border-radius: 99999px;
+    color:white;
+    min-width:100px;
+}
+
+.delete-btn:hover {
+    background-color: red;
+}
+
+.delete-btn:focus-visible {
+    background-color: darkred;
+}
+
+input::placeholder {
+    font-size: 18px;
+}
+
+.inputs-todo button {
+    background-color:rgb(40, 198, 40);
+    border:none;
+    color:white;
+    border-radius: 99999px;
+    cursor:pointer;
+    padding:1.5em 1.4em;
+    font-size: .8em;
+    
+}
+
+.inputs-todo button:hover {
+    background-color: rgba(128, 77, 0, 0.871);
+}
+
+.inputs-todo button:focus-visible {
+    background-color:rgb(40,198,40);
+}
+
